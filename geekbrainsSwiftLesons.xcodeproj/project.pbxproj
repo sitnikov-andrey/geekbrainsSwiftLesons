@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6605A72F256EDAAA00C72EED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6605A72E256EDAAA00C72EED /* main.swift */; };
-		66803114256F70A200759745 /* quadraticEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66803113256F70A200759745 /* quadraticEquation.swift */; };
-		66803116256F74E800759745 /* rightTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66803115256F74E800759745 /* rightTriangle.swift */; };
-		66803118256F7B6500759745 /* bankDeposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66803117256F7B6500759745 /* bankDeposit.swift */; };
+		66D5FF44257288DF00DC8115 /* lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D5FF43257288DF00DC8115 /* lesson1.swift */; };
+		66D5FF472572890200DC8115 /* lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D5FF462572890200DC8115 /* lesson2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +27,8 @@
 /* Begin PBXFileReference section */
 		6605A72B256EDAAA00C72EED /* geekbrainsSwiftLesons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geekbrainsSwiftLesons; sourceTree = BUILT_PRODUCTS_DIR; };
 		6605A72E256EDAAA00C72EED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		66803113256F70A200759745 /* quadraticEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quadraticEquation.swift; sourceTree = "<group>"; };
-		66803115256F74E800759745 /* rightTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightTriangle.swift; sourceTree = "<group>"; };
-		66803117256F7B6500759745 /* bankDeposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bankDeposit.swift; sourceTree = "<group>"; };
+		66D5FF43257288DF00DC8115 /* lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson1.swift; sourceTree = "<group>"; };
+		66D5FF462572890200DC8115 /* lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				6605A72E256EDAAA00C72EED /* main.swift */,
-				66803113256F70A200759745 /* quadraticEquation.swift */,
-				66803115256F74E800759745 /* rightTriangle.swift */,
-				66803117256F7B6500759745 /* bankDeposit.swift */,
+				66D5FF43257288DF00DC8115 /* lesson1.swift */,
+				66D5FF462572890200DC8115 /* lesson2.swift */,
 			);
 			path = geekbrainsSwiftLesons;
 			sourceTree = "<group>";
@@ -129,10 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66803118256F7B6500759745 /* bankDeposit.swift in Sources */,
-				66803114256F70A200759745 /* quadraticEquation.swift in Sources */,
-				66803116256F74E800759745 /* rightTriangle.swift in Sources */,
+				66D5FF44257288DF00DC8115 /* lesson1.swift in Sources */,
 				6605A72F256EDAAA00C72EED /* main.swift in Sources */,
+				66D5FF472572890200DC8115 /* lesson2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
