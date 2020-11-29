@@ -18,3 +18,18 @@ func quadraticEquation(a:Double, b:Double, c:Double) {
         }
     }
 }
+
+func rightTriangle(a:Double, b:Double) {
+    print("Прмоугольный треугольник:")
+    print("Площадь = \(0.5*(a*b))")
+    
+    let hypotenuse:Double = (a*a + b*b).squareRoot()
+    print("Периметр = \(a + b + hypotenuse)")
+    
+    print("Гипотенуза = \(hypotenuse)\n")
+}
+
+func bankDeposit(vklad:Double, proc:Double) {
+    let afterFiveYears :Double = vklad + (proc * vklad * 5) / 100
+    print("Сумма вклада через 5 лет =  \(afterFiveYears)\n")
+}
