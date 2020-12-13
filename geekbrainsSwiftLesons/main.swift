@@ -21,7 +21,7 @@ createArray()
 //Списоу 100 простых чисел
 silmleNumbers()
 
-// Объекты машин
+//Урок 3
 var sportCar = SportCar(mark : "VAZ", year : 2010, trunkVolume : 0, fullTrunkVolume : 20, engineState : .start, windowsState : .close)
 
 var truck = Truck(mark : "KAMAZ", year : 1999, trunkVolume : 15, fullTrunkVolume : 100, engineState : .stop, windowsState : .open)
@@ -41,10 +41,7 @@ truck.changeTrunkVolume(action: .load, value: 60)
 truck.changeTrunkVolume(action: .load, value: 80)
 truck.changeTrunkVolume(action: .reload, value: 50)
 
-print(sportCar)
-print(truck)
-
-//Объекты класса машина
+//Урок 4
 
 var firstSportCar = SportsCar(mark: "ferrari", year: 2018, engineState: .start, windowsState: .close, turboState: .on)
 var secondSportCar = SportsCar(mark: "Lamborghini", year: 2020, engineState: .stop, windowsState: .open, turboState: .off)
@@ -74,7 +71,37 @@ secondTrunk.changeTrunkVolume(action: .load, value: 80)
 secondTrunk.changeTrunkVolume(action: .load, value: 120)
 secondTrunk.changeTrunkVolume(action: .reload, value: 1)
 
-print(firstSportCar.description)
-print(secondSportCar.description)
-print(firstTrunk.description)
-print(secondTrunk.description)
+//Урок 5
+print("\nУрок 5\n")
+var firstSportCar5 = SportCar5(mark: "ferrari", year: 2018, engineState: .start, windowsState: .close, turboState: .on)
+var secondSportCar5 = SportCar5(mark: "Lamborghini", year: 2020, engineState: .stop, windowsState: .open, turboState: .off)
+
+var firstTrunk5 = TrunkCar5(mark: "KAMAZ", year: 1992, engineState: .start, windowsState: .open, trunkVolume: 0, fullTrunkVolume: 100)
+var secondTrunk5 = TrunkCar5(mark: "MAN", year: 2009, engineState: .stop, windowsState: .close, trunkVolume: 25, fullTrunkVolume: 150)
+
+firstSportCar5.changeEngineState(engine: .stop)
+firstSportCar5.changeWindowsState(windows: .open)
+firstSportCar5.changeTurboState(turbo: .on)
+
+secondSportCar5.changeEngineState(engine: .start)
+secondSportCar5.changeWindowsState(windows: .close)
+secondSportCar5.changeTurboState(turbo: .off)
+
+firstTrunk5.changeEngineState(engine: .stop)
+firstTrunk5.changeWindowsState(windows: .open)
+firstTrunk5.changeTrunkVolume(action: .reload, value: 20)
+firstTrunk5.changeTrunkVolume(action: .load, value: 60)
+firstTrunk5.changeTrunkVolume(action: .load, value: 120)
+firstTrunk5.changeTrunkVolume(action: .reload, value: 50)
+
+secondTrunk5.changeEngineState(engine: .stop)
+secondTrunk5.changeWindowsState(windows: .open)
+secondTrunk5.changeTrunkVolume(action: .reload, value: 5)
+secondTrunk5.changeTrunkVolume(action: .load, value: 80)
+secondTrunk5.changeTrunkVolume(action: .load, value: 120)
+secondTrunk5.changeTrunkVolume(action: .reload, value: 1)
+
+print(firstSportCar5)
+print(secondSportCar5)
+print(firstTrunk5)
+print(secondTrunk5)
