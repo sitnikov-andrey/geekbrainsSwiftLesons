@@ -105,3 +105,29 @@ print(firstSportCar5)
 print(secondSportCar5)
 print(firstTrunk5)
 print(secondTrunk5)
+
+//Дженерики
+print("\nУрок 6\n")
+
+var queueInMarket = Queue<Person>()
+queueInMarket.stendInQueue(element: .init(name: "Andrey"))
+queueInMarket.stendInQueue(element: .init(name: "Alexander"))
+queueInMarket.stendInQueue(element: .init(name: "Olga"))
+queueInMarket.stendInQueue(element: .init(name: "Nikolay"))
+queueInMarket.stendInQueue(element: .init(name: "Andrey"))
+queueInMarket.stendInQueue(element: .init(name: "Natasha"))
+
+var olga = queueInMarket[3]
+print(olga.name)
+
+var natasha = queueInMarket[6]
+print(natasha.name)
+
+var anna = Person(name: "Anna")
+queueInMarket.givePlaceInQueue(element: anna, index : 6)
+
+anna = queueInMarket[6]
+print(anna.name)
+
+var andreyInQueue = queueInMarket.filter(predicate: {$0.name == "Andrey"})
+print(andreyInQueue)
