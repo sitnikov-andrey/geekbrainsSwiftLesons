@@ -12,6 +12,7 @@
 		66BC08E6257EACBC00394E02 /* lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC08E3257EACBC00394E02 /* lesson1.swift */; };
 		66BC08E7257EACBC00394E02 /* lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC08E4257EACBC00394E02 /* lesson2.swift */; };
 		66BC08E92585605F00394E02 /* lesson5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC08E82585605F00394E02 /* lesson5.swift */; };
+		66BC08EB258BCECD00394E02 /* lesson6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC08EA258BCECD00394E02 /* lesson6.swift */; };
 		66D5FF57257AEF9200DC8115 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D5FF56257AEF9200DC8115 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		66BC08E3257EACBC00394E02 /* lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson1.swift; sourceTree = "<group>"; };
 		66BC08E4257EACBC00394E02 /* lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson2.swift; sourceTree = "<group>"; };
 		66BC08E82585605F00394E02 /* lesson5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson5.swift; sourceTree = "<group>"; };
+		66BC08EA258BCECD00394E02 /* lesson6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson6.swift; sourceTree = "<group>"; };
 		66D5FF53257AEF9200DC8115 /* geekbrainsSwiftLesons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geekbrainsSwiftLesons; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D5FF56257AEF9200DC8115 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				66D5FF56257AEF9200DC8115 /* main.swift */,
 				66BC08E0257EAC1800394E02 /* lesson4.swift */,
 				66BC08E82585605F00394E02 /* lesson5.swift */,
+				66BC08EA258BCECD00394E02 /* lesson6.swift */,
 			);
 			path = geekbrainsSwiftLesons;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BC08E5257EACBC00394E02 /* lesson3.swift in Sources */,
+				66BC08EB258BCECD00394E02 /* lesson6.swift in Sources */,
 				66BC08E6257EACBC00394E02 /* lesson1.swift in Sources */,
 				66BC08E7257EACBC00394E02 /* lesson2.swift in Sources */,
 				66BC08E1257EAC1800394E02 /* lesson4.swift in Sources */,
