@@ -131,3 +131,29 @@ print(anna.name)
 
 var andreyInQueue = queueInMarket.filter(predicate: {$0.name == "Andrey"})
 print(andreyInQueue)
+
+
+//Урок 7. Обработка ошибок
+print("\nУрок 7\n")
+
+let factory = Factory()
+var withholdingOfWages = factory.fine(name: "Иванов Иван Иванович", withhold: 200)
+print(withholdingOfWages)
+withholdingOfWages = factory.fine(name: "Иванов Иван Иванович", withhold: 2900)
+print(withholdingOfWages)
+withholdingOfWages = factory.fine(name: "Петров Иван Иванович", withhold: 2700)
+print(withholdingOfWages)
+
+do {
+    let person = try factory.employeeData(name: "Иванов Иван Иванович")
+    print(person)
+} catch FactoryError.invalideEmployeeName {
+    print("Такой работник не существует")
+}
+
+do {
+    let person = try factory.employeeData(name: "Петров Иван Иванович")
+    print(person)
+} catch FactoryError.invalideEmployeeName {
+    print("Такой работник не существует")
+}
